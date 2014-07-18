@@ -1,0 +1,12 @@
+diff -Naur gnome-settings-daemon-3.12.2.orig/data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in gnome-settings-daemon-3.12.2/data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in
+--- gnome-settings-daemon-3.12.2.orig/data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in	2013-02-21 06:32:45.000000000 +0700
++++ gnome-settings-daemon-3.12.2/data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in	2014-07-19 00:40:56.283476034 +0700
+@@ -11,7 +11,7 @@
+       <_description>The type of antialiasing to use when rendering fonts. Possible values are: "none" for no antialiasing, "grayscale" for standard grayscale antialiasing, and "rgba" for subpixel antialiasing (LCD screens only).</_description>
+     </key>
+     <key name="hinting" enum="org.gnome.settings-daemon.GsdFontHinting">
+-      <default>'medium'</default>
++      <default>'slight'</default>
+       <_summary>Hinting</_summary>
+       <_description>The type of hinting to use when rendering fonts. Possible values are: "none" for no hinting, "slight" for basic, "medium" for moderate, and "full" for maximum hinting (may cause distortion of letter forms).</_description>
+     </key>

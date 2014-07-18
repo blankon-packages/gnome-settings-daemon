@@ -7,7 +7,6 @@ Source: gnome-settings-daemon
 Section: gnome
 Priority: optional
 Maintainer: BlankOn Developers <BlankOn-Dev@googlegroups.com>
-XSBC-Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Uploaders: Andreas Henriksson <andreas@fatal.se>, Emilio Pozuelo Monfort <pochu@debian.org>, Laurent Bigonville <bigon@debian.org>, Sjoerd Simons <sjoerd@debian.org>
 Build-Depends: cdbs,
                debhelper (>= 9),
@@ -34,12 +33,12 @@ Build-Depends: cdbs,
                libpolkit-gobject-1-dev,
                libpackagekit-glib2-dev (>= 0.6.4),
                libupower-glib-dev (>= 0.99.0),
-               libgudev-1.0-dev,
+               libgudev-1.0-dev [linux-any],
                libcolord-dev (>= 1.0.2),
                liblcms2-dev,
                libnss3-dev,
-               libwacom-dev (>= 0.7),
-               xserver-xorg-input-wacom,
+               libwacom-dev (>= 0.7) [!hurd-any !kfreebsd-any !s390 !s390x],
+               xserver-xorg-input-wacom [!hurd-any !kfreebsd-any !s390 !s390x],
                librsvg2-dev (>= 2.36.2),
                libgweather-3-dev (>= 3.9.5),
                libgeocode-glib-dev (>= 3.10.0),
