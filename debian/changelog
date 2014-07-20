@@ -2,7 +2,7 @@ gnome-settings-daemon (3.12.2-1blankon1) tambora; urgency=medium
 
   * Added 101_blankon-setting-daemon.patch
 
- -- mijortsa <mijortsa@localhost>  Sat, 19 Jul 2014 01:01:49 +0700
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Sat, 19 Jul 2014 01:01:49 +0700
 
 gnome-settings-daemon (3.12.2-1) unstable; urgency=medium
 
