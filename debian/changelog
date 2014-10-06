@@ -1,8 +1,19 @@
-gnome-settings-daemon (3.14.0-1blankon1) tambora; urgency=low
+gnome-settings-daemon (3.14.0-2blankon1) tambora; urgency=medium
 
-  * New upstream release
+  * Added Patchs:
+   - 101_blankon-setting-daemon.patch
 
- -- Mahyuddin <yudi.al@gmail.com>  Tue, 23 Sep 2014 22:43:41 +0700
+ -- Azis Ws <azis.astrojim@surabaya.di.blankon.in>  Mon, 06 Oct 2014 07:04:36 +0700
+
+gnome-settings-daemon (3.14.0-2) unstable; urgency=medium
+
+  * Do not enable networkmanager support on !linux architectures
+  * debian/control.in:
+    - Add libnm-util-dev to the build-dependencies
+    - Depends against libpam-systemd instead of plain systemd package, g-s-d
+      needs logind for several power related functionalities
+
+ -- Laurent Bigonville <bigon@debian.org>  Sun, 05 Oct 2014 04:23:11 +0200
 
 gnome-settings-daemon (3.14.0-1) unstable; urgency=medium
 
