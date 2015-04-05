@@ -1,9 +1,46 @@
-gnome-settings-daemon (3.14.0-2blankon1) tambora; urgency=medium
+gnome-settings-daemon (3.14.2-3blankon1) tambora; urgency=medium
 
-  * Added Patchs:
-   - 101_blankon-setting-daemon.patch
+  * Merge patches from Ubuntu 
+  * Debian/contol.in:
+    - Remove build-depends linux-any
+    - Added build-depends accountservice
 
- -- Azis Ws <azis.astrojim@surabaya.di.blankon.in>  Mon, 06 Oct 2014 07:04:36 +0700
+ -- Mahyuddin <yudi.al@gmail.com>  Sun, 05 Apr 2015 14:57:36 +0700
+
+gnome-settings-daemon (3.14.2-3) unstable; urgency=medium
+
+  * Team upload
+  * power-make-sure-to-set-an-error-when-GDBus-set_prope.patch:
+    set the error when a GDBus set_property callback fails
+    (hopefully Closes: #775877)
+
+ -- Simon McVittie <smcv@debian.org>  Mon, 09 Mar 2015 09:49:20 +0000
+
+gnome-settings-daemon (3.14.2-2) unstable; urgency=medium
+
+  * 01_reinstate_updates_plugin.patch: reinstate the “updates” plugin, 
+    since gnome-software is not in jessie and we need an update 
+    mechanism.
+  * Use patch-translations.mk.
+  * Reintroduce GNOME 3.12 translations.
+  * Update packagekit-glib build-dependency.
+
+ -- Josselin Mouette <joss@debian.org>  Thu, 04 Dec 2014 10:47:04 +0100
+
+gnome-settings-daemon (3.14.2-1) unstable; urgency=medium
+
+  * New upstream translation and bugfix release.
+  * 30_xrandr_dbus_init.patch: patch from upstream git. Fixes a crash
+    due to a race condition in dbus initialization.
+
+ -- Josselin Mouette <joss@debian.org>  Sun, 30 Nov 2014 12:46:20 +0100
+
+gnome-settings-daemon (3.14.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/control.in: Bump Standards-Version to 3.9.6 (no further changes)
+
+ -- Laurent Bigonville <bigon@debian.org>  Sat, 18 Oct 2014 09:47:37 +0200
 
 gnome-settings-daemon (3.14.0-2) unstable; urgency=medium
 
