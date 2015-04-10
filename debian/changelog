@@ -1,3 +1,10 @@
+gnome-settings-daemon (3.14.2-3blankon2) tambora; urgency=medium
+
+  * Fix gnome-terminal not running 
+    - Drop patch 43_disable_locale_settings.patch
+
+ -- Mahyuddin <yudi.al@gmail.com>  Fri, 10 Apr 2015 15:47:00 +0700
+
 gnome-settings-daemon (3.14.2-3blankon1) tambora; urgency=medium
 
   * Merge patches from Ubuntu 
