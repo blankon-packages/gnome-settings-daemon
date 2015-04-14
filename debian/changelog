@@ -1,3 +1,9 @@
+gnome-settings-daemon (3.14.2-3blankon3) tambora; urgency=medium
+
+  * Rebuild with libpolicykit-agent
+
+ -- Mijortsa <azis.astrojim@surabaya.di.blankon.in>  Tue, 14 Apr 2015 19:07:18 +0700
+
 gnome-settings-daemon (3.14.2-3blankon2) tambora; urgency=medium
 
   * Fix gnome-terminal not running 
