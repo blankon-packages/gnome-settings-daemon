@@ -1,3 +1,10 @@
+gnome-settings-daemon (3.14.2-3blankon4) tambora; urgency=medium
+
+  * debian/patches :
+    99_blankon-plugins-cursor.patch
+
+ -- Mijortsa <azis.astrojim@surabaya.di.blankon.in>  Wed, 27 May 2015 01:21:57 +0700
+
 gnome-settings-daemon (3.14.2-3blankon3) tambora; urgency=medium
 
   * Rebuild with libpolicykit-agent
