@@ -1,31 +1,23 @@
-gnome-settings-daemon (3.14.2-3blankon4) tambora; urgency=medium
+gnome-settings-daemon (3.16.2-1blankon1) tambora; urgency=medium
 
-  * debian/patches :
-    99_blankon-plugins-cursor.patch
+  * Merge with Debian Experimental
+  * Re-add 99_blankon-plugins-cursor.patch 
 
- -- Mijortsa <azis.astrojim@surabaya.di.blankon.in>  Wed, 27 May 2015 01:21:57 +0700
+ -- Mahyuddin <yudi.al@gmail.com>  Sun, 31 May 2015 13:55:35 +0700
 
-gnome-settings-daemon (3.14.2-3blankon3) tambora; urgency=medium
+gnome-settings-daemon (3.16.2-1) experimental; urgency=medium
 
-  * Rebuild with libpolicykit-agent
+  * New upstream release.
+  * debian/control.in:
+    + Update (build-)dependencies.
+  * debian/patches/30_xrandr_dbus_init.patch,
+    debian/patches/power-make-sure-to-set-an-error-when-GDBus-set_prope.patch:
+    + Dropped, merged upstream.
+  * debian/patches/04_superP.patch:
+    + Updated for the new version.
+  * Upload to experimental.
 
- -- Mijortsa <azis.astrojim@surabaya.di.blankon.in>  Tue, 14 Apr 2015 19:07:18 +0700
-
-gnome-settings-daemon (3.14.2-3blankon2) tambora; urgency=medium
-
-  * Fix gnome-terminal not running 
-    - Drop patch 43_disable_locale_settings.patch
-
- -- Mahyuddin <yudi.al@gmail.com>  Fri, 10 Apr 2015 15:47:00 +0700
-
-gnome-settings-daemon (3.14.2-3blankon1) tambora; urgency=medium
-
-  * Merge patches from Ubuntu 
-  * Debian/contol.in:
-    - Remove build-depends linux-any
-    - Added build-depends accountservice
-
- -- Mahyuddin <yudi.al@gmail.com>  Sun, 05 Apr 2015 14:57:36 +0700
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Sun, 31 May 2015 00:06:31 +0200
 
 gnome-settings-daemon (3.14.2-3) unstable; urgency=medium
 
