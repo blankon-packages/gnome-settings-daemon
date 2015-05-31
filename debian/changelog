@@ -1,7 +1,6 @@
 gnome-settings-daemon (3.16.2-1blankon1) tambora; urgency=medium
 
   * Merge with Debian Experimental
-  * Re-add 99_blankon-plugins-cursor.patch 
 
  -- Mahyuddin <yudi.al@gmail.com>  Sun, 31 May 2015 13:55:35 +0700
 
