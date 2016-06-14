@@ -28,6 +28,7 @@ install/gnome-settings-daemon::
 	install -c gnome-settings-daemon/gnome-update-wallpaper-cache debian/gnome-settings-daemon
 	install -m 644 -D debian/gnome-settings-daemon.user-session.upstart debian/gnome-settings-daemon/usr/share/upstart/sessions/gnome-settings-daemon.conf
 	install -m 644 -D debian/gnome-settings-daemon.user-session.desktop debian/gnome-settings-daemon/usr/share/upstart/xdg/autostart/gnome-settings-daemon.desktop
+endif
 
 DEB_DH_MAKESHLIBS_ARGS_ALL += --no-act
 
