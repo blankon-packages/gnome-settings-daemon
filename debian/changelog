@@ -2,7 +2,7 @@ gnome-settings-daemon (3.20.1-2blankon1) tambora; urgency=medium
 
   * Fix wallpapers not show #103
 
- -- Syai Mif <syaimif@di.blankon.in>  Mon, 13 Jun 2016 20:49:01 +0700
+ -- Syai Mif <syaimif@di.blankon.in>  Thu, 16 Jun 2016 10:11:26 +0700
 
 gnome-settings-daemon (3.20.1-2) unstable; urgency=medium
 
