@@ -1,3 +1,19 @@
+gnome-settings-daemon (3.20.1-2blankon4) tambora; urgency=medium
+
+  * Remove gnome-update-wallpaper 
+
+ -- dotovr <dotovr@preko>  Fri, 17 Jun 2016 01:32:13 +0700
+
+gnome-settings-daemon (3.20.1-2blankon3) tambora; urgency=medium
+
+  * Re-add patches:
+    - 53_sync_input_sources_to_accountsservice.patch
+    - 64_restore_terminal_keyboard_shortcut_schema.patch
+    - revert_background_dropping.patch
+  * Added Build-depends: libaccountsservice-dev
+
+ -- dotovr <dotovr@preko>  Thu, 16 Jun 2016 20:47:43 +0700
+
 gnome-settings-daemon (3.20.1-2blankon2) tambora; urgency=medium
 
   * Changes rules
