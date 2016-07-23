@@ -1,3 +1,9 @@
+gnome-settings-daemon (3.20.1-2blankon6) tambora; urgency=medium
+
+  * remove source/include.binary
+
+ -- Mijortsa <mijortsa@icik2.blankon.in>  Sat, 23 Jul 2016 22:07:24 +0700
+
 gnome-settings-daemon (3.20.1-2blankon5) tambora; urgency=medium
 
   * source/include.binary :
