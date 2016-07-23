@@ -1,7 +1,8 @@
 gnome-settings-daemon (3.20.1-2blankon5) tambora; urgency=medium
 
-  * blankon-MenuHaveIcon.patch :
-    - requests mr.imgos
+  * source/include.binary :
+    - debian/org.gnome.settings-daemon.plugins.xsettings.gschema.xml
+    - request mr.imgos
 
  -- Mijortsa <mijortsa@icik2.blankon.in>  Sat, 23 Jul 2016 13:06:54 +0700
 
