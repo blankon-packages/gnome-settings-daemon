@@ -1,3 +1,10 @@
+gnome-settings-daemon (3.24.3-1blankon2) uluwatu; urgency=medium
+
+  * Add libaccountservices-dev in build-depends
+  * Remove [linux-any] in gnome-settings-daemon.install
+
+ -- AnTo SamalonA <ansamsoftdev@gmail.com>  Wed, 04 Oct 2017 10:01:53 +0800
+
 gnome-settings-daemon (3.24.3-1blankon1) uluwatu; urgency=medium
 
   * New upstream release
