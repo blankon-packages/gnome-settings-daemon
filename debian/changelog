@@ -1,3 +1,9 @@
+gnome-settings-daemon (3.24.3-1blankon3) uluwatu; urgency=medium
+
+  * Rebuild
+
+ -- AnTo SamalonA <ansamsoftdev@gmail.com>  Wed, 04 Oct 2017 13:36:29 +0800
+
 gnome-settings-daemon (3.24.3-1blankon2) uluwatu; urgency=medium
 
   * Add libaccountservices-dev in build-depends
