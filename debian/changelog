@@ -1,8 +1,19 @@
-gnome-settings-daemon (3.26.1-2blankon1) uluwatu; urgency=medium
+gnome-settings-daemon (3.26.2-1blankon1) uluwatu; urgency=medium
 
-  * New upstream release 
+  * New upstream release
 
- -- AnTo SamalonA <ansamsoftdev@gmail.com>  Wed, 18 Oct 2017 07:09:49 +0800
+ -- antosamalona <ansamsoftdev@gmail.com>  Tue, 19 Dec 2017 14:00:15 +0800
+
+gnome-settings-daemon (3.26.2-1) unstable; urgency=medium
+
+  [ Michael Biebl ]
+  * New upstream release
+  * Switch to dh_missing
+
+  [ Helmut Grohne ]
+  * Honour DEB_BUILD_OPTIONS=nocheck (Closes: #880486)
+
+ -- Michael Biebl <biebl@debian.org>  Thu, 02 Nov 2017 18:45:01 +0100
 
 gnome-settings-daemon (3.26.1-2) unstable; urgency=medium
 
